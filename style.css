@@ -1,0 +1,89 @@
+body {
+    background-image: url("https://wallpapers.com/images/hd/the-avengers-vm16xv4a69smdauy.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+  
+main {
+    height: auto;
+    width: 30vw;
+    margin: 9rem auto;
+    border: rgb(243, 8, 8) solid 2px;
+    border-radius: 30px;
+    background-color: azure;
+    position: relative;
+}
+
+#search{
+    border-radius: 30px;
+}
+ 
+#auto-complete {
+    max-height: 300px;
+    overflow-y: auto;
+}
+  
+#auto-complete li {
+    color: black;
+    padding: 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+  
+.container {
+    height: auto;
+    width: 70vw;
+    display: flex;
+    padding: 10px;
+    margin-top: -20px;
+}
+  
+.img img {
+    height: 400px;
+    width: auto;
+}
+  
+.details {
+    height: 400px;
+    width: 80%;
+    color: white;
+    font-weight: bold;
+    overflow-y: auto;
+    padding-left: 15px;
+}
+  
+#powerstats{
+    color: red;
+    margin-bottom: 10px;
+}
+  
+#bio{
+    margin-top: 10px;
+    color: blue;
+}
+  
+#favbtn {
+    display:none;  
+}
+  
+#logo{
+    color: aliceblue;
+    font-size: 40px;
+}
+
+#logoimage{
+    height: 60px;
+    width: 180px;
+}
+.active{
+    color: red;
+    font-size: 30px;
+    font-weight: bolder;
+    border: 2px double black;
+    background-color: white;
+    padding-bottom: 10px;
+    border-radius: 25px;
+}
+  
